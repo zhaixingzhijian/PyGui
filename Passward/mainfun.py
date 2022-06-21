@@ -42,7 +42,7 @@ class Passwardsolve(QtWidgets.QMainWindow, pa.Ui_PDSE):
         file = items()
         for i in file:
             b = str(i).rstrip('.txt')
-            self.textBrowser_2.append(b)
+            self.textBrowser_2.append("<font size='4' color='blue'>"+b+"</font>")
     def pk5(self):
         self.textBrowser_2.clear()
 
